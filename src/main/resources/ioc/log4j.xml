@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<!-- ================================================================== This 
+	is the Log4J Configuration used in Eclipse for Development ================================================================== -->
+<log4j:configuration>
+
+
+    <root>
+        <priority value="error"/>
+        <appender-ref ref="stdout"/>
+        <!-- <appender-ref ref="dailyFileAppender"/> -->
+    </root>
+
+</log4j:configuration>
